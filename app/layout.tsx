@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {process.env.NEXT_PUBLIC_GA_TRACKING_ID && <GoogleAnalytics />}
+       
         <Navbar />
         <main className="min-h-screen">
           {children}
